@@ -4,13 +4,14 @@ package com.fusen.workcode.utils.enums;
 import com.fusen.workcode.service.TestService;
 
 public enum ReturnCode implements TestService {
-    //请求成功状态码
+    //请求成功响应
     SUCCESS("0","请求成功"){
         @Override
         public String demo() {
             return "成功的实现";
         }
     },
+    //登录失败响应
     LOGIN_ERROR("1001","登录错误"){
         @Override
         public String demo() {
