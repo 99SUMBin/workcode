@@ -4,6 +4,7 @@ package com.fusen.workcode.utils.enums;
 import com.fusen.workcode.service.TestService;
 
 public enum ReturnCode implements TestService {
+    //请求成功状态码
     SUCCESS("0","请求成功"){
         @Override
         public String demo() {
