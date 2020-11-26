@@ -1,23 +1,13 @@
 package com.fusen.workcode.utils.enums;
 
-
-import com.fusen.workcode.service.TestService;
-
-public enum ReturnCode implements TestService {
+/**
+ * 枚举可以实现接口在每个实例中去实现方法
+ */
+public enum ReturnCode{
     //请求成功响应
-    SUCCESS("0","请求成功"){
-        @Override
-        public String demo() {
-            return "成功的实现";
-        }
-    },
+    SUCCESS("0","请求成功") ,
     //登录失败响应
-    LOGIN_ERROR("1001","登录错误"){
-        @Override
-        public String demo() {
-            return "失败的实现";
-        }
-    };
+    LOGIN_ERROR("1001","登录错误");
 //    INVALID_TOKEN("1002","token失效,请重新获取"){
 //
 //    },

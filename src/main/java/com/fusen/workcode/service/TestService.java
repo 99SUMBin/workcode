@@ -5,7 +5,8 @@ package com.fusen.workcode.service;
  * @create: 2020-11-24 11:27
  * @description: 函数式接口
  */
-@FunctionalInterface
+//@FunctionalInterface
 public interface TestService {
-    String demo();
+    String fun();
+    void te();
 }
